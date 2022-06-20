@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Veri Önyüzü</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/script.js"></script>
+</head>
+<body>
+    <h2>Kişiler ile İlgili İşlemler</h2>
+    <br>
+    <p>Kişiler</p>
+    <div id="kisiListesi">Kişi Listesi</div>
+    <br>
+    <input type="button" value="Kişileri Listele" onclick="kisileriYukle();">
+    <br>
+    <br>
+    <p>Kişi Ekleme</p>
+    <div>
+        <input type="text" id="name" placeholder="ad girin">
+        <input type="text" id="surname" placeholder="soyad girin">
+        <input type="text" id="yas" placeholder="yas girin">
+        <input type="button" value="Kişi Ekle" onclick="kisiEkle();">
+    </div>
+    <br>
+    <br>
+    <p>Kişi Güncelleme</p>
+    <div>
+        <input type="text" id="guncel_id" placeholder="ID girin">
+        <input type="text" id="guncel_name" placeholder="ad girin">
+        <input type="text" id="guncel_surname" placeholder="soyad girin">
+        <input type="text" id="guncel_yas" placeholder="yas girin">
+        <input type="button" value="Kişiyi Güncelle" onclick="kisiGuncelle();">
+    </div>
+    <br>
+    <br>
+    <p>Kişi Silme</p>
+    <div>
+        <input type="text" id="sil_id" placeholder="ID girin">
+        <input type="button" value="Kişiyi Sil" onclick="kisiSil();">
+    </div>
+</body>
+</html>
